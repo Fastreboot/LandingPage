@@ -5,7 +5,7 @@ const AssessmentSteps = [
     {
         name: " question 1",
         Component: () => <div className=' text-center '><h1>first question</h1>
-        <div className='options flex justify-center items-center gap-8'>
+        <div className='options flex flex-col justify-center mt-5 items-center gap-8'>
                             <label>
                                 <input type="checkbox" name='questions' />
                                 
@@ -25,7 +25,7 @@ const AssessmentSteps = [
     {
         name: " question 2",
         Component: () => <div className=' text-center '><h1>Second question</h1>
-        <div className='options flex justify-center items-center gap-8'>
+        <div className='options flex flex-col justify-center mt-5  items-center gap-8'>
                             <label>
                                 <input type="checkbox" name='questions' />
                                 
@@ -45,7 +45,7 @@ const AssessmentSteps = [
     {
         name: " question 3",
         Component: () => <div className=' text-center '><h1>third question</h1>
-        <div className='options flex justify-center items-center gap-8'>
+        <div className='options flex flex-col justify-center mt-5  items-center gap-8'>
                             <label>
                                 <input type="checkbox" name='questions' />
                                 
@@ -65,7 +65,7 @@ const AssessmentSteps = [
     {
         name: " question 4",
         Component: () => <div className=' text-center '><h1>fourth question</h1>
-        <div className='options flex justify-center items-center gap-8'>
+        <div className='options flex flex-col justify-center mt-5 items-center gap-8'>
                             <label>
                                 <input type="checkbox" name='questions' />
                                 
@@ -85,7 +85,7 @@ const AssessmentSteps = [
     {
         name: " question 5",
         Component: () => <div className=' text-center '><h1>fifth question</h1>
-        <div className='options flex justify-center items-center gap-8'>
+        <div className='options flex flex-col justify-center mt-5 items-center gap-8'>
                             <label>
                                 <input type='checkbox' name='questions' />
                                 
