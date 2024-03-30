@@ -1,5 +1,6 @@
 import React from 'react'
 import AssessmentStepper from '../../Components/AssessmentStepper/AssessmentStepper'
+import Navbar from '../../Components/Navbar/Navbar'
 
 const AssessmentSteps = [
     {
@@ -107,6 +108,7 @@ const AssessmentSteps = [
 const QNA = () => {
   return (
     <div>
+        <Navbar/>
         <h1 className=' text-center font-bold text-2xl my-5'>Assessment</h1>
       <AssessmentStepper  stepsConfig={AssessmentSteps}/>
     </div>
