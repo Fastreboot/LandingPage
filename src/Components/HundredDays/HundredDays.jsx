@@ -21,7 +21,68 @@ import PersonalMentor from './PersonalMentor/PersonalMentor';
 
 const HundredDays = () => {
 
-  
+  const routeMap=[
+  {
+    id:1,
+    name:"DAILY LIVE MEDITATION",
+  },
+  {
+    id:2,
+    name:"LIVE COACHING",
+  },
+  {
+    id:3,
+    name:"PERSONALITY TEST",
+  },
+  {
+    id:4,
+    name:"SATISFACTION TEST",
+  },
+  {
+    id:5,
+    name:"ENNIAGRAM TEST",
+  },
+  {
+    id:6,
+    name:"JOURNALING",
+  },
+  {
+    id:7,
+    name:"PROGRESSION CHECK LIST",
+  },
+  {
+    id:8,
+    name:"BUDGET PLANNER",
+  },
+  {
+    id:9,
+    name:"MOOD TRACKER",
+  },
+  {
+    id:10,
+    name:"TODO LIST",
+  },
+  {
+    id:11,
+    name:"STUDY GRAPH",
+  },
+  {
+    id:12,
+    name:"VISION PLANNER",
+  },
+  {
+    id:13,
+    name:"FIRE MOTIVATION VIDEOS",
+  },
+  {
+    id:14,
+    name:"SUCCESS STORIES",
+  },
+  {
+    id:15,
+    name:"23 AUDIO BOOKS",
+  },
+]
 
   return (
     
@@ -123,12 +184,28 @@ const HundredDays = () => {
         </div>
 
       </div>
-
-      
       <PersonalMentor/>
       <Quotes/>
       <Milestone/>
+      
+      <section className=' container mx-auto w-full py-5'>
 
+          <div>
+            <h1 className='text-gray-500  font-bold text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-3 text-center'>Carriculum Route Map</h1>
+            <div className='flex flex-wrap justify-center gap-2 py-5'>
+              {
+                routeMap.map((routeData, index)=>(
+                  <div className=' bg-neutral-200 w-28 px-20 h-14 flex justify-center items-center rounded-xl'>
+                  <h2 className=' font-semibold text-sm text-center'>{routeData.name}</h2>
+              </div>
+                ))
+              }
+              
+            </div>
+          </div>
+      </section>
+      
+      
       </div>
 
   )
