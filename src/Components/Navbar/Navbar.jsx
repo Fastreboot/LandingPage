@@ -184,11 +184,12 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-white navbar mx-auto w-4/5 rounded-b-xl h-20 px-4">
+    <Disclosure as="nav" className="bg-white navbar mx-auto w-4/5 rounded-b-xl h-20 px-4" >
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
+              
               <div className="flex items-center flex-shrink-0">
                 <img
                   className="h-8 w-auto mr-2 rounded-lg"
@@ -223,11 +224,13 @@ export default function Navbar() {
                       {item.name}
                     </Link>
                   ))}
+                  
                 </div>
+                
               </div>
             </div>
           </div>
-          <Disclosure.Panel className="sm:hidden bg-slate-50 relative pb-6 px-6 rounded-2xl">
+          <Disclosure.Panel className="sm:hidden z-10 bg-slate-50 relative pb-6 px-6 rounded-2xl">
             <div className="space-y-1 px-2 pb-3 pt-2  ">
               {navigation.map((item) => (
                 <Disclosure.Button
