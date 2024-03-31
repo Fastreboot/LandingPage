@@ -165,9 +165,9 @@
 // }
 
 
-import { Fragment } from 'react';
-import { Disclosure, Menu, Transition } from '@headlessui/react';
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
+
+import { Disclosure, } from '@headlessui/react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import logo from '../../assets/Img/logo.jpg'
 
@@ -227,15 +227,15 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-          <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 px-2 pb-3 pt-2">
+          <Disclosure.Panel className="sm:hidden bg-slate-50 relative pb-6 px-6 rounded-2xl">
+            <div className="space-y-1 px-2 pb-3 pt-2  ">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
                   as={Link} // Change Disclosure.Button to Link
                   to={item.to} // Change href to to
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    item.current ? 'bg-gray-900 text-white' : 'text-black hover:bg-gray-700 hover:text-white',
                     'block rounded-md px-3 py-2 text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}
@@ -244,12 +244,12 @@ export default function Navbar() {
                 </Disclosure.Button>
               ))}
             </div>
-            <div className={"gap-3 lg:flex"}>
+            <div className={"gap-3 flex"}>
                 <Link to="/fastreboot-website/login"> {/* Change a to Link */}
                   <button className="mr-2 bg-white h-10  text-black border-black border-2 px-5 rounded-xl font-semibold hover:bg-stone-200 hover:scale-105 transition-transform duration-300">Login</button>
                 </Link>
                 <Link to="/fastreboot-website/test"> {/* Change a to Link */}
-                  <button className="bg-green-500 h-10 px-5 py-2 text-white rounded-xl font-semibold hover:bg-green-600 hover:scale-105 transition-transform duration-300">Free Assessment</button>
+                  <button className="bg-green-500 h-10 px-5 py-2 text-white rounded-xl font-semibold hover:bg-green-600 hover:scale-105 transition-transform duration-300">Assessment</button>
                 </Link>
               </div>
           </Disclosure.Panel>
