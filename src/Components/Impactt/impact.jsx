@@ -42,10 +42,10 @@ const Impact = () => {
 
         <div className="bg-white rounded-lg shadow-2xl p-4 text-center">
           <div className="text-2xl font-semibold text-black">
-            <CountUp end={30} duration={6} />
+            <CountUp end={5} duration={4} />
             <span className="text-3xl font-bold ml-1 text-orange-500">+</span>
           </div>
-          <div className="text-gray-600">Case Studies</div>
+          <div className="text-gray-600">Programs</div>
         </div>
 
         

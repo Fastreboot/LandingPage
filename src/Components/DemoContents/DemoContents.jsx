@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const DemoContents = () => {
-  const [videoSrc, setVideoSrc] = useState('https://www.youtube.com/embed/6Bsl68rOlyo');
+  const [videoSrc, setVideoSrc] = useState('https://www.youtube.com/embed/E94OXFZWLLs');
 
   const handleRadioChange = (e) => {
     const selectedValue = e.target.value;
@@ -26,9 +26,10 @@ const DemoContents = () => {
 
   return (
     <div className="flex flex-col justify-center items-center gap-4 md:p-8  bg-white w-full">
-      <h4 className='text-gray-500  font-bold text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl  text-center'>Demo Videos</h4>
-      <h3 className='font-bold text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-3 text-center '>Watch our videos</h3>
-      <div className="radio-inputs">
+      {/* <h4 className='text-gray-500  font-bold text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl  text-center'>Demo Videos</h4> */}
+      <h4 className='text-gray-500  font-bold text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl  text-center'>Why Us?</h4>
+      {/* <h3 className='font-bold text-md sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-3 text-center '>Watch our videos</h3> */}
+      {/* <div className="radio-inputs">
         <label className="radio">
           <input type="radio" name="radio" value="stress" onChange={handleRadioChange} />
           <span className="name">Stress</span>
@@ -45,7 +46,7 @@ const DemoContents = () => {
           <input type="radio" name="radio" value="personality" onChange={handleRadioChange} />
           <span className="name">Personality</span>
         </label>
-      </div>
+      </div> */}
 
       <div className="w-full md:w-3/4 bg-white rounded-xl px-4">
         <div className="relative" style={{ paddingTop: "56.25%" }}>

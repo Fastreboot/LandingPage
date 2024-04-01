@@ -8,6 +8,12 @@ import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
+// import images
+
+import bannerImg1 from '../../assets/Img/FastrebootImg/banner11.jpg'
+import bannerImg2 from '../../assets/Img/FastrebootImg/banner12.jpg'
+import bannerImg3 from '../../assets/Img/FastrebootImg/banner14.jpg'
+
 // import './styles.css';
 
 // import required modules
@@ -30,17 +36,14 @@ const Banner = () => {
         modules={[EffectFade, Navigation, Pagination, Autoplay]}
         className="mySwiper h-80 w-auto mt-5"
       >
-        <SwiperSlide >
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" className=' w-full h-full object-cover' />
+        <SwiperSlide>
+          <img src={bannerImg3} className=' w-full h-full object-fill' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" className=' w-full h-full object-cover'  />
+          <img src={bannerImg2} className=' w-full h-full object-fill'  />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" className=' w-full h-full object-cover' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" className=' w-full h-full object-cover' />
+          <img src={bannerImg1} className=' w-full h-full object-fill' />
         </SwiperSlide>
       </Swiper>
     </>

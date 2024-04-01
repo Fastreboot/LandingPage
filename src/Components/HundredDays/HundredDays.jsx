@@ -72,7 +72,7 @@ const HundredDays = () => {
   },
   {
     id:13,
-    name:"FIRE MOTIVATION VIDEOS",
+    name:"MOTIVATION VIDEOS",
   },
   {
     id:14,
@@ -80,7 +80,7 @@ const HundredDays = () => {
   },
   {
     id:15,
-    name:"23 AUDIO BOOKS",
+    name:"AUDIO BOOKS",
   },
 ]
 
@@ -112,7 +112,7 @@ const HundredDays = () => {
         <div className=" flex flex-col justify-center  gap-5">
           <div className='px-14' >
             <h1 className=' text-xl sm:text-2xl md:text-3xl font-extrabold pt-5 text-center text-gray-900 '>UNLOCKING YOUR GREATNESS <br /> THROUGH SELF MASTERY!</h1>
-            <p className=' font-semibold pt-5 text-left '>നൂതനമായ വിദ്യകളിലൂടെയും തന്ത്രങ്ങളിലൂടെയും പരിശീലനങ്ങളിലൂടെയും നിങ്ങളിൽ LIFE-MASTERY SKILLS
+            <p className=' font-semibold pt-5 text-center '>നൂതനമായ വിദ്യകളിലൂടെയും തന്ത്രങ്ങളിലൂടെയും പരിശീലനങ്ങളിലൂടെയും നിങ്ങളിൽ LIFE-MASTERY SKILLS
               വളർത്തിയെടുക്കുന്നു. ഇതിലൂടെ നിങ്ങളുടെ പ്രശ്നങ്ങൾ ലഘൂകരിക്കപ്പെടുകയും നിങ്ങളുടെ
               ജീവിതത്തിൽ വളർച്ച സൃഷ്ടിക്കപ്പെടുകയും ചെയ്യുന്നു...
             </p>
@@ -121,7 +121,7 @@ const HundredDays = () => {
           {/* mastery icons */}
 
           <div className="flex flex-wrap w-full justify-center gap-8 mt-5 px-4">
-            <div className="flex flex-col items-center gap-3">
+            {/* <div className="flex flex-col items-center gap-3">
               <div className=" flex items-center justify-center w-12 h-12 -start-6 bg-green-200 rounded-full ring-4 ring-white dark:ring-red-500 dark:bg-red-400 ">
                 <GiBrain className='w-8 h-8' />
               </div>
@@ -132,7 +132,7 @@ const HundredDays = () => {
                 <MdSelfImprovement className='w-8 h-8' />
               </div>
               <h3 className=' font-bold'>Self Mastery</h3>
-            </div>
+            </div> */}
             <div className="flex flex-col items-center gap-3">
               <div className="flex items-center justify-center w-12 h-12 -start-6 bg-gray-100 rounded-full  ring-4 ring-white dark:ring-green-700 dark:bg-green-600">
                 <FaHandHoldingHeart className='w-8 h-8' />

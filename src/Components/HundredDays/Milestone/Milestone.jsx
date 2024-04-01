@@ -27,12 +27,12 @@ const milestoneContents = [
   heading:"Live Coaching",
   para:"എല്ലാ ഞായർ ബുധൻ ദിവസങ്ങളിൽ രാത്രി 8 മണിക്ക് നിങ്ങൾക്ക് ഒരു Live Coaching Session ഉണ്ടായിരിക്കുന്നതാണ് നിങ്ങളുടെ Life rebuild ചെയ്യുന്നതിനായി എല്ലാ വെള്ളി ഞായർ ബുധൻ ദിവസങ്ങളിലും രാത്രി 8 മണിക്ക് ആയിരിക്കും ഈ സെഷൻ conduct ചെയ്യുന്നുണ്ടാവുക. Mind Tuning practitioner ഉം Life Coach & Councellor ഉമായിട്ടുള്ള Anil Kumar PC യുടെ നേതൃത്വത്തിലും Josh Talk Fame ഉം Life Coach ഉം ആയിട്ടുള്ള Nizam Moonniyoor നേതൃത്വത്തിലും ആയിരിക്കും Live sessions conduct ചെയ്യുന്നുണ്ടാവുക ഇതിലൂടെ നിങ്ങൾക്ക് ഒരു കരുത്തുറ്റ ഒരു സപ്പോർട്ട് കിട്ടുകയും അത് നിങ്ങളെ കൂടുതൽ മുന്നോട്ടു നയിക്കുകയും ചെയ്യുന്നു. നിങ്ങളുടെ identity തികച്ചും privacy യിൽ ആയിരിക്കും. നിങ്ങളുടെ ഇഷട്ടാനുസരണം join ചെയ്യാവുന്നതാണ്z",
 },
-{
-  id:4,
-  image:{meditationImg},
-  heading:"Live Meditation",
-  para:"എല്ലാ ദിവസവും രാവിലെ 5.30 മണിക്ക് നിങ്ങൾക്ക് ഒരു ലൈവ് മെഡിറ്റേഷൻ ഉണ്ടായിരിക്കുന്നതാണ്. ഇതിലൂടെ നിങ്ങൾക്ക് നല്ലൊരു ക്ലിയർ മൈൻഡ്സെറ്റ് ക്രിയേറ്റ് ചെയ്യാൻ സാധിക്കുന്നു. Meditation Types : 5 ഇലധികം Different Meditations ഞങ്ങൾ നിങ്ങൾക്കായി ദിവസവും നൽകുന്നു",
-},
+// {
+//   id:4,
+//   image:{meditationImg},
+//   heading:"Live Meditation",
+//   para:"എല്ലാ ദിവസവും രാവിലെ 5.30 മണിക്ക് നിങ്ങൾക്ക് ഒരു ലൈവ് മെഡിറ്റേഷൻ ഉണ്ടായിരിക്കുന്നതാണ്. ഇതിലൂടെ നിങ്ങൾക്ക് നല്ലൊരു ക്ലിയർ മൈൻഡ്സെറ്റ് ക്രിയേറ്റ് ചെയ്യാൻ സാധിക്കുന്നു. Meditation Types : 5 ഇലധികം Different Meditations ഞങ്ങൾ നിങ്ങൾക്കായി ദിവസവും നൽകുന്നു",
+// },
 ]
 
 const ParagraphStyles = {
