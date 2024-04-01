@@ -93,7 +93,7 @@ const HundredDays = () => {
         {/* type writing effect heading */}
 
         <h1 className=' text-center font-extrabold text-3xl text-gray-800 mb-4'>
-          Hundred Day's of {' '}
+          100 Day's of {' '}
         </h1>
         <span className='flex justify-center text-gray-600 font-extrabold text-4xl' >
 
