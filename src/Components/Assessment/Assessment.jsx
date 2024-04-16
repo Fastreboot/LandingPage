@@ -1,12 +1,17 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 
+import depressionImg from '../../assets/Img/depression.jpg'
+import anxietyImg from '../../assets/Img/anxiety.jpg'
+import stressImg from '../../assets/Img/stress.jpg'
+import generalImg from '../../assets/Img/general.jpg'
+
 const Assessment = () => {
     const datas = [
         {
             issue: "Depression",
             id: 1,
-            img: "https://picsum.photos/seed/picsum/200/300",
+            img: depressionImg,
             duration: "5min",
             title: "Assessment",
             href: "/fastreboot-website/test",
@@ -14,7 +19,7 @@ const Assessment = () => {
         {
             issue: "Anxiety",
             id: 2,
-            img: "https://picsum.photos/seed/picsum/200/300",
+            img: anxietyImg,
             duration: "5min",
             title: "Assessment",
             href: "/fastreboot-website/test",
@@ -22,7 +27,7 @@ const Assessment = () => {
         {
             issue: "Stress",
             id: 3,
-            img: "https://picsum.photos/seed/picsum/200/300",
+            img: stressImg,
             duration: "5min",
             title: "Assessment",
             href: "/fastreboot-website/test",
@@ -30,7 +35,7 @@ const Assessment = () => {
         {
             issue: "Genaral",
             id: 4,
-            img: "https://picsum.photos/seed/picsum/200/300",
+            img: generalImg,
             duration: "5min",
             title: "Assessment",
             href: "/fastreboot-website/test",

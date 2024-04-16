@@ -24,7 +24,7 @@ const Login = () => {
           <div>
             <div className="mt-3 text-left sm:mt-5">
               <div className="inline-flex items-center w-full">
-                <h3 className="text-lg font-bold text-neutral-600 l eading-6 lg:text-5xl">Sign up</h3>
+                <h3 className="text-lg font-bold text-neutral-600 l eading-6 lg:text-5xl">Sign in</h3>
               </div>
               <div className="mt-4 text-base text-gray-500">
                 <p>Sign up and get our newest news.</p>
@@ -42,7 +42,7 @@ const Login = () => {
               <input type="text" name="password" id="password" className="block w-full px-5 py-3 text-base text-neutral-600 placeholder-gray-300  border border-transparent rounded-lg bg-gray-50 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300" placeholder="Enter your password" fdprocessedid="1iaai"/>
             </div>
             <div className="flex flex-col mt-4 lg:space-y-2">
-              <button type="button" className="flex items-center justify-center w-full px-10 py-4 text-base font-medium text-center text-white bg-blue-600 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500" fdprocessedid="wm35s9">Sign up</button>
+              <button type="button" className="flex items-center justify-center w-full px-10 py-4 text-base font-medium text-center text-white bg-green-500 rounded-xl hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500" fdprocessedid="wm35s9">Sign in</button>
               <a href="#" type="button" className="inline-flex justify-center py-4 text-base font-medium text-gray-500 focus:outline-none hover:text-neutral-600 focus:text-blue-600 sm:text-sm"> Forgot your Password? </a>
             </div>
           </div>
